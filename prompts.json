@@ -1,9 +1,13 @@
 {
-   "Whats wrong the WACC formula for the DCF?":[
+  "prompts": [
+   ["Whats wrong the WACC formula for the DCF?",
+    [
       "Formula/Data",
       "Answer"
+    ]
    ],
-   "Pls confirm the list of comps for company in XYZ industry":[
+   ["Pls confirm the list of comps for company in XYZ industry",
+    [
       [
          "List Item 1",
          "List Item 2",
@@ -14,5 +18,6 @@
          "Answer 2",
          "Answer 3"
       ]
-   ]
+   ]]
+  ]
 }
