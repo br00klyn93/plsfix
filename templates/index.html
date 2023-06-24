@@ -1,18 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
+<html>
 
-<style>
-</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>plsfix.</title>
+  <style>
+    html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #232323;
+}
+
+img {
+  width: 30%;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.blocked {
+  display: block;
+}
+
+
+
+#email {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: 1.5px solid white;
+  transition: .2s ease-in;
+}
+
+#email:focus {
+  background-color: white;
+  color: #232323;
+  outline: none;
+  
+}
+
+#submit {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: 1.5px solid white;
+  transition: .2s ease-in;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background-color: white;
+  color: #232323;
+}
+  </style>
+</head>
 
 <body>
-
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is working!</p>
-</div>
+  <div class="center-screen">
+    <div class="blocked">
+   <img src="pf..png">
+    <form>
+      <input type="text" id="email" placeholder="email.">
+      <input type="button" id="submit" value="co-sign.">
+    </form>
+      </div>
+  </div>
 
 </body>
+
 </html>
