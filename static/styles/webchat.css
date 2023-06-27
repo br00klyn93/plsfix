@@ -41,6 +41,10 @@ body {
   border-radius: 0.5rem;
 }
 
+.bg-cust {
+  background-color: #232323!important;
+}
+
 input::placeholder {
   font-size: 0.9rem;
   color: #999;
