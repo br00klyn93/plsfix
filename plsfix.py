@@ -16,6 +16,10 @@ def main():
 def getFix():
     print(p['prompts'][-1])
     return(p['prompts'][-1])
+
+@app.route('/webchat')
+def webChat():
+    return render_template('webchat.html')
     
     
 
