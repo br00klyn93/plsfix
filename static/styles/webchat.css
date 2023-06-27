@@ -6,7 +6,7 @@
 *
 */
 body {
-  background-color: #232323;
+  background-color: #232323!important;
   overflow: hidden;
   min-height: 100vh;
 }
